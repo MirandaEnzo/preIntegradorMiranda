@@ -41,7 +41,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         message.textContent = 'usuario logueado correctamente!';
         message.style.color = 'green';
         setTimeout(() => {
-            window.location.href ='index.html';
+            window.location.href ='estrenos.html';
         }, 1000);
     } else if (valid) {
         console.log('Invalid username or password');
